@@ -3,7 +3,6 @@
 //   какое число большее,.
 
 Console.Clear();
-Console.WriteLine("Hello, World!");
 Console.WriteLine("Введите число a");
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число b");
