@@ -3,8 +3,8 @@
 Console.Clear();
 Console.WriteLine("Введите трехзнфчное число N:");
 int N = int.Parse(Console.ReadLine());
-int a = N%100;
-int b = a%10;
+//int a = N%100;
+int b = N%10;
 Console.WriteLine($"Последней цифрой числа {N} является {b} ");
 
 
